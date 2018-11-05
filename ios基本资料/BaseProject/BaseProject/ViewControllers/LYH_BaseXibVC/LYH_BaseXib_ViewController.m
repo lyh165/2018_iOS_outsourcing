@@ -8,6 +8,8 @@
     // 视图加载调用,只会调用一次
     [super viewDidLoad];
     self.edgesForExtendedLayout=UIRectEdgeNone;  // 防止xib往上偏移64的点
+    self.navigationController.navigationBar.translucent = NO; // 防止导航栏的颜色和实际颜色的区别
+
 }
 
 - (void)didReceiveMemoryWarning

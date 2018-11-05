@@ -1,6 +1,8 @@
 #import <UIKit/UIKit.h>
 
 @interface LYH_BaseXib_ViewController : UIViewController
+// 有navigation才需要继承
+
 // 都是給最高级调用
 - (void)setNavColor:(UIColor *)color;
 - (void)setNavTitle:(NSString *)title;
