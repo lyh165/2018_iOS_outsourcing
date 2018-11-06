@@ -18,6 +18,10 @@
 		6F3B7A08218F72E500D0B8DF /* ConsumerOrders_HasService_Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F3B7A06218F72E500D0B8DF /* ConsumerOrders_HasService_Cell.xib */; };
 		6F3B7A0C218F735900D0B8DF /* ConsumerOrders_Refund_Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F3B7A0A218F735900D0B8DF /* ConsumerOrders_Refund_Cell.m */; };
 		6F3B7A0D218F735900D0B8DF /* ConsumerOrders_Refund_Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F3B7A0B218F735900D0B8DF /* ConsumerOrders_Refund_Cell.xib */; };
+		6FC3DD0821921740009A4247 /* LYH_View_SearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC3DD0621921740009A4247 /* LYH_View_SearchBar.m */; };
+		6FC3DD0E21921826009A4247 /* SuperBargain_noupons_Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC3DD0C21921826009A4247 /* SuperBargain_noupons_Cell.m */; };
+		6FC3DD0F21921826009A4247 /* SuperBargain_noupons_Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FC3DD0D21921826009A4247 /* SuperBargain_noupons_Cell.xib */; };
+		6FC3DD1221921A93009A4247 /* SuperBargain_Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC3DD1121921A93009A4247 /* SuperBargain_Model.m */; };
 		9B474AB3218C4A3200597130 /* LYH_MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B474AB1218C4A3200597130 /* LYH_MyViewController.m */; };
 		9B474AB4218C4A3200597130 /* LYH_MyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B474AB2218C4A3200597130 /* LYH_MyViewController.xib */; };
 		9B474AB8218C4A4800597130 /* LYH_SuperBargain_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B474AB6218C4A4800597130 /* LYH_SuperBargain_ViewController.m */; };
@@ -85,6 +89,13 @@
 		6F3B7A09218F735900D0B8DF /* ConsumerOrders_Refund_Cell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConsumerOrders_Refund_Cell.h; sourceTree = "<group>"; };
 		6F3B7A0A218F735900D0B8DF /* ConsumerOrders_Refund_Cell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConsumerOrders_Refund_Cell.m; sourceTree = "<group>"; };
 		6F3B7A0B218F735900D0B8DF /* ConsumerOrders_Refund_Cell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConsumerOrders_Refund_Cell.xib; sourceTree = "<group>"; };
+		6FC3DD0621921740009A4247 /* LYH_View_SearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYH_View_SearchBar.m; sourceTree = "<group>"; };
+		6FC3DD0721921740009A4247 /* LYH_View_SearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYH_View_SearchBar.h; sourceTree = "<group>"; };
+		6FC3DD0B21921826009A4247 /* SuperBargain_noupons_Cell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuperBargain_noupons_Cell.h; sourceTree = "<group>"; };
+		6FC3DD0C21921826009A4247 /* SuperBargain_noupons_Cell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperBargain_noupons_Cell.m; sourceTree = "<group>"; };
+		6FC3DD0D21921826009A4247 /* SuperBargain_noupons_Cell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SuperBargain_noupons_Cell.xib; sourceTree = "<group>"; };
+		6FC3DD1021921A93009A4247 /* SuperBargain_Model.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuperBargain_Model.h; sourceTree = "<group>"; };
+		6FC3DD1121921A93009A4247 /* SuperBargain_Model.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperBargain_Model.m; sourceTree = "<group>"; };
 		9B474AB0218C4A3200597130 /* LYH_MyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYH_MyViewController.h; sourceTree = "<group>"; };
 		9B474AB1218C4A3200597130 /* LYH_MyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYH_MyViewController.m; sourceTree = "<group>"; };
 		9B474AB2218C4A3200597130 /* LYH_MyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYH_MyViewController.xib; sourceTree = "<group>"; };
@@ -226,6 +237,34 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		6FC3DD0521921740009A4247 /* LYH_CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				6FC3DD0621921740009A4247 /* LYH_View_SearchBar.m */,
+				6FC3DD0721921740009A4247 /* LYH_View_SearchBar.h */,
+			);
+			path = LYH_CustomView;
+			sourceTree = "<group>";
+		};
+		6FC3DD0921921774009A4247 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6FC3DD1021921A93009A4247 /* SuperBargain_Model.h */,
+				6FC3DD1121921A93009A4247 /* SuperBargain_Model.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6FC3DD0A21921774009A4247 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6FC3DD0B21921826009A4247 /* SuperBargain_noupons_Cell.h */,
+				6FC3DD0C21921826009A4247 /* SuperBargain_noupons_Cell.m */,
+				6FC3DD0D21921826009A4247 /* SuperBargain_noupons_Cell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		9B474AAD218C4A0E00597130 /* LYH_TradeCircle__(手艺圈) */ = {
 			isa = PBXGroup;
 			children = (
@@ -250,10 +289,12 @@
 		9B474AAF218C4A0F00597130 /* LYH_SuperBargain__(超划算) */ = {
 			isa = PBXGroup;
 			children = (
+				6FC3DD0921921774009A4247 /* Model */,
+				6FC3DD0A21921774009A4247 /* View */,
+				6FC3DD0521921740009A4247 /* LYH_CustomView */,
 				9B474AC8218C5A2C00597130 /* Controller */,
 				9B474AC9218C5A2C00597130 /* Model */,
 				9B474ACA218C5A2C00597130 /* SubVC */,
-				9B474AC7218C5A2C00597130 /* View */,
 				9B474AB5218C4A4800597130 /* LYH_SuperBargain_ViewController.h */,
 				9B474AB6218C4A4800597130 /* LYH_SuperBargain_ViewController.m */,
 				9B474AB7218C4A4800597130 /* LYH_SuperBargain_ViewController.xib */,
@@ -268,13 +309,6 @@
 				9B474AC1218C551500597130 /* LYH_BaseXib_ViewController.m */,
 			);
 			path = LYH_BaseXibVC;
-			sourceTree = "<group>";
-		};
-		9B474AC7218C5A2C00597130 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		9B474AC8218C5A2C00597130 /* Controller */ = {
@@ -622,6 +656,7 @@
 				FE9C34FB1E69227400E280BA /* LaunchScreen.storyboard in Resources */,
 				FE9C34F81E69227400E280BA /* Assets.xcassets in Resources */,
 				6F3B7A0D218F735900D0B8DF /* ConsumerOrders_Refund_Cell.xib in Resources */,
+				6FC3DD0F21921826009A4247 /* SuperBargain_noupons_Cell.xib in Resources */,
 				9B474AB4218C4A3200597130 /* LYH_MyViewController.xib in Resources */,
 				6F3B7A08218F72E500D0B8DF /* ConsumerOrders_HasService_Cell.xib in Resources */,
 				6F3B79FD218F708700D0B8DF /* ConsumerOrders_NoService_Cell.xib in Resources */,
@@ -704,6 +739,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FC3DD0E21921826009A4247 /* SuperBargain_noupons_Cell.m in Sources */,
 				FE9C35501E695ACE00E280BA /* ViewController.m in Sources */,
 				6F3B7A0C218F735900D0B8DF /* ConsumerOrders_Refund_Cell.m in Sources */,
 				FE9C35491E69580F00E280BA /* BaseTableView.m in Sources */,
@@ -712,6 +748,8 @@
 				9B474AB3218C4A3200597130 /* LYH_MyViewController.m in Sources */,
 				FE06EE091E697CD4000EB3AA /* DatePickView.m in Sources */,
 				FE9C353F1E694D8700E280BA /* MyPicButton.m in Sources */,
+				6FC3DD0821921740009A4247 /* LYH_View_SearchBar.m in Sources */,
+				6FC3DD1221921A93009A4247 /* SuperBargain_Model.m in Sources */,
 				FE9C35441E6957FD00E280BA /* BaseModel.m in Sources */,
 				FE9C35291E69454900E280BA /* BaseViewController.m in Sources */,
 				FE9C35591E69726900E280BA /* NetRequest.m in Sources */,

@@ -58,7 +58,7 @@
     model2.orderServerType = ORDERServerType_hasService;
     ConsumerOrders_Model *model3 = [ConsumerOrders_Model new];
     model3.orderServerType = ORDERServerType_hasRefund;
-    for (int i = 0; i < 20; i++) {
+    for (int i = 0; i < 1; i++) {
         [self.temp_dataArr addObject:model1];
         [self.temp_dataArr addObject:model2];
         [self.temp_dataArr addObject:model3];
